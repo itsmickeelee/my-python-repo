@@ -5,10 +5,13 @@ print(A)
 
 # write a program that adds numbers
 
-def add_nums(a,b,c):
-    add_nums = a + b + c
-    A = []
-for num in add_nums:
-    A.append(num)
-    return A
-print(add_nums([10+20+30]))
+def add_nums(nums):
+    res = 0
+    for num in nums:
+        res = res + num
+    return res
+
+
+print(add_nums([10,20,30]))
+
+
