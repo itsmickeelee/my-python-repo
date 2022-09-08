@@ -10,8 +10,7 @@ def add_nums(nums):
     for num in nums:
         res = res + num
     return res
-
-
+    
 print(add_nums([10,20,30]))
 
 
