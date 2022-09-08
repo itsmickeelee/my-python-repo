@@ -1,3 +1,5 @@
 # Demo
 
-'hello world'
+A = 'hello world'
+print(A)
+
